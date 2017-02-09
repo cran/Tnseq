@@ -1,0 +1,17 @@
+export(Tnseq, BiasFactor)
+import(edgeR,Ckmeans.1d.dp,DESeq)
+importFrom("methods", "is")
+importFrom("stats", "aggregate", "dnbinom", "model.matrix","p.adjust", "pnorm", "predict", "pt", "qnorm", "uniroot","loess")
+importFrom(limma,voom)	
+importFrom(limma,lmFit)
+importFrom(limma,eBayes)
+importFrom(Biobase,fData)
+
+
+
+
+
+
+
+
+
