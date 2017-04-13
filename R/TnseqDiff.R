@@ -1,4 +1,4 @@
-Tnseq<-function (countData, geneID, location, pool, condition, weights = "equal", 
+TnseqDiff<-function (countData, geneID, location, pool, condition, weights = "equal", 
           bayes = FALSE, p.nb = FALSE, norm = TRUE, cut=0) 
 {
   

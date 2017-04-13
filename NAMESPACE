@@ -1,4 +1,4 @@
-export(Tnseq, BiasFactor)
+export(TnseqDiff, BiasFactor)
 import(edgeR,Ckmeans.1d.dp,DESeq)
 importFrom("methods", "is")
 importFrom("stats", "aggregate", "dnbinom", "model.matrix","p.adjust", "pnorm", "predict", "pt", "qnorm", "uniroot","loess")

@@ -11,5 +11,7 @@ function(nb.est=nb.est){
   
   res$FC=res$MeanB/res$MeanA
   res$log2FC=log2(res$FC)
-  return(res)
+  resc=res[,c("ID","FC","log2FC","p.nb")]
+  colnames(resc)[4]="pvalue"
+  return(resc)
 }

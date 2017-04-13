@@ -1,5 +1,5 @@
-\name{Tnseq}
-\alias{Tnseq}
+\name{TnseqDiff}
+\alias{TnseqDiff}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{Identify conditionally essential genes using high-throughput sequencing data from transposon mutant libraries
 }
@@ -12,7 +12,7 @@ If no replicate in both conditions in any pool, the insertion-level p-values are
 and then combined using the stouffer method.
 }
 \usage{
-Tnseq(countData, geneID, location, pool, condition, weights="equal", bayes=FALSE,
+TnseqDiff(countData, geneID, location, pool, condition, weights="equal", bayes=FALSE,
         p.nb=FALSE, norm=TRUE, cut=0)
 }
 
@@ -82,7 +82,7 @@ pool=c(1,1,2,2,1,1,1,1,2,2,2,2)
 geneID=as.character(serr$GeneID)
 location=serr$Loc
 
-foo<-Tnseq(countData, geneID, location, pool, condition)  
+foo<-TnseqDiff(countData, geneID, location, pool, condition)  
 
 res=foo$resTable
 
@@ -97,7 +97,7 @@ pool=c(1,2,1,2)
 geneID=as.character(serr$GeneID)
 location=serr$Loc
 
-foo<-Tnseq(countData, geneID, location, pool, condition)  
+foo<-TnseqDiff(countData, geneID, location, pool, condition)  
 
 res=foo$resTable
 
@@ -109,7 +109,7 @@ pool=c(1,1,1,1,1,1)
 geneID=as.character(serr$GeneID)
 location=serr$Loc
 
-foo<-Tnseq(countData, geneID, location, pool, condition)  
+foo<-TnseqDiff(countData, geneID, location, pool, condition)  
 
 res=foo$resTable
 

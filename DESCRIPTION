@@ -1,6 +1,6 @@
 Package: Tnseq
-Version: 0.1.1
-Date: 2017-2-1
+Version: 0.1.2
+Date: 2017-4-13
 Title: Identification of Conditionally Essential Genes in Transposon
         Sequencing Studies
 Author: Lili Zhao <zhaolili@umich.edu> 
@@ -11,6 +11,6 @@ Description: Identification of conditionally essential genes using high-throughp
 License: GPL (>= 3)
 LazyData: TRUE
 NeedsCompilation: no
-Packaged: 2017-02-08 16:56:08 UTC; zhaolili
+Packaged: 2017-04-13 19:14:19 UTC; zhaolili
 Repository: CRAN
-Date/Publication: 2017-02-09 19:42:38
+Date/Publication: 2017-04-13 20:53:45 UTC
